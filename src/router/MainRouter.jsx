@@ -22,6 +22,7 @@ import MD1000_MainDashBoard from "../pages/MD1000_MainDashBoard";
 import SB1000_SearchBook from "../pages/SB1000_SearchBook";
 import MD1200_ReviewMain from "../pages/MD1200_ReviewMain";
 import SoccerField from "../pages/SoccerField";
+import TacticsPage from "../pages/TacticsPage";
 
 function MainRouter() {
     return (
@@ -54,6 +55,7 @@ function MainRouter() {
                     <Route path="/calender" element={<CB1000_CalenderBook />} />
                     <Route path="/searchbook" element={<SB1000_SearchBook />} />
                     <Route path="/reviewmain" element={<MD1200_ReviewMain />} />
+                    <Route path= "/tactics" element= {<TacticsPage /> }/>
                
             </Route>
 

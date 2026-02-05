@@ -1,0 +1,136 @@
+@import "tailwindcss";
+
+@theme {
+    /* 1. 브랜드 컬러 매핑 */
+    --color-brand: var(--primary50);
+    --color-brand-strong: var(--primary70);
+    --color-brand-soft: var(--primary30);
+
+    --color-surface: #ffffff;
+    --color-surface-muted: var(--gray5);
+
+    --color-text: var(--gray90);
+    --color-text-muted: var(--gray50);
+
+    /* 2. Primary 팔레트 매핑 (하나씩 지정) */
+    --color-primary-10: var(--primary10);
+    --color-primary-20: var(--primary20);
+    --color-primary-30: var(--primary30);
+    --color-primary-40: var(--primary40);
+    --color-primary-50: var(--primary50);
+    --color-primary-60: var(--primary60);
+    --color-primary-70: var(--primary70);
+    --color-primary-80: var(--primary80);
+    --color-primary-90: var(--primary90);
+
+    /* 3. Secondary 팔레트 매핑 */
+    --color-secondary-5: var(--secondary5);
+    --color-secondary-10: var(--secondary10);
+    --color-secondary-20: var(--secondary20);
+    --color-secondary-30: var(--secondary30);
+    --color-secondary-40: var(--secondary40);
+    --color-secondary-50: var(--secondary50);
+    --color-secondary-60: var(--secondary60);
+    --color-secondary-70: var(--secondary70);
+    --color-secondary-80: var(--secondary80);
+    --color-secondary-90: var(--secondary90);
+    --color-secondary-95: var(--secondary95);
+    --color-secondary-special-50: var(--secondary_50);
+
+    /* 4. Gray 팔레트 매핑 */
+    --color-gray-5: var(--gray5);
+    --color-gray-10: var(--gray10);
+    --color-gray-20: var(--gray20);
+    --color-gray-30: var(--gray30);
+    --color-gray-40: var(--gray40);
+    --color-gray-50: var(--gray50);
+    --color-gray-60: var(--gray60);
+    --color-gray-70: var(--gray70);
+    --color-gray-80: var(--gray80);
+    --color-gray-90: var(--gray90);
+    --color-gray-95: var(--gray95);
+
+    /* 5. 나머지 색상 매핑 */
+    --color-red-10: var(--red10);
+    --color-red-50: var(--red50);
+    --color-red-90: var(--red90);
+
+    --color-blue-10: var(--blue10);
+    --color-blue-50: var(--blue50);
+    --color-blue-90: var(--blue90);
+
+    --color-green-10: var(--green10);
+    --color-green-50: var(--green50);
+    --color-green-90: var(--green90);
+
+    --color-yellow-10: var(--yellow10);
+    --color-yellow-50: var(--yellow50);
+    --color-yellow-90: var(--yellow90);
+}
+
+/* 실제 색상 코드 정의 (이전과 동일) */
+:root {
+    /* Primary */
+    --primary10: #edeae4;
+    --primary20: #d8d2c2;
+    --primary30: #b6ad90;
+    --primary40: #8e7f66;
+    --primary50: #63513d;
+    --primary60: #544433;
+    --primary70: #45382a;
+    --primary80: #362b21;
+    --primary90: #271f17;
+
+    /* Secondary */
+    --secondary5: #f2f3f0;
+    --secondary10: #e5e8e1;
+    --secondary20: #cbd2c3;
+    --secondary30: #abb69e;
+    --secondary40: #919d83;
+    --secondary50: #7a846b;
+    --secondary60: #68715b;
+    --secondary70: #565d4b;
+    --secondary80: #434a3c;
+    --secondary90: #31362c;
+    --secondary95: #1e211b;
+    --secondary_50: #444342;
+
+    /* Gray */
+    --gray5: #faf9f8;
+    --gray10: #f2f1ef;
+    --gray20: #e4e2df;
+    --gray30: #c8c6c3;
+    --gray40: #aaa8a5;
+    --gray50: #8b8884;
+    --gray60: #6e6b68;
+    --gray70: #53514e;
+    --gray80: #393735;
+    --gray90: #201f1e;
+    --gray95: #121110;
+
+    /* Colors */
+    --red10: #fdecec;
+    --red50: #b03d3d;
+    --red90: #5b1f1f;
+
+    --blue10: #e8f1f8;
+    --blue50: #4a7da5;
+    --blue90: #264054;
+
+    --green10: #e9f2eb;
+    --green50: #5e8c61;
+    --green90: #2f4631;
+
+    --yellow10: #fef9e6;
+    --yellow50: #d4a017;
+    --yellow90: #6a500b;
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE 및 Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
